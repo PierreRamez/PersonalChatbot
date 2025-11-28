@@ -45,7 +45,6 @@ jobs:
       - name: Push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          # REPLACE 'pierreramez' with your HF username and 'chatbot-api' with your Space name
           HF_USERNAME: pierreramez 
           SPACE_NAME: chatbot-api
         run: |
