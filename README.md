@@ -1,4 +1,4 @@
-# 🐍 Ouro: Your Ever Evolving Personal Assistant
+# 🐍 Ouro: Your Ever-Evolving Personal Assistant
 
 *A personalized conversational AI that learns from its mistakes in real-time.*
 
@@ -94,7 +94,7 @@ docker run -p 7860:7860 ouro-chatbot
 uvicorn app:app --reload --port 7860
 ```
 
-Visit [http://localhost:7860/docs](http://localhost:7860/docs) to explore the Swagger API documentation.
+Visit [Hugging Face Chatbot API](https://huggingface.co/spaces/pierreramez/chatbot-api) to explore the deployed API documentation.
 
 ---
 
