@@ -94,7 +94,7 @@ docker run -p 7860:7860 ouro-chatbot
 uvicorn app:app --reload --port 7860
 ```
 
-Visit [http://localhost:7860/docs](http://localhost:7860/docs) to explore the Swagger API documentation.
+Visit [https://huggingface.co/spaces/pierreramez/chatbot-api](https://huggingface.co/spaces/pierreramez/chatbot-api) to explore the Swagger API documentation.
 
 ---
 
