@@ -94,11 +94,7 @@ docker run -p 7860:7860 ouro-chatbot
 uvicorn app:app --reload --port 7860
 ```
 
-<<<<<<< HEAD
 Visit [Hugging Face Chatbot API](https://huggingface.co/spaces/pierreramez/chatbot-api) to explore the deployed API documentation.
-=======
-Visit [https://huggingface.co/spaces/pierreramez/chatbot-api](https://huggingface.co/spaces/pierreramez/chatbot-api) to explore the Swagger API documentation.
->>>>>>> a8b6919cbb188c4bd4704075c331d52d28bf12b2
 
 ---
 
@@ -165,3 +161,5 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
   <p><i>Part of the DEPI Generative AI Track - Round 3</i></p>
 </div>
 
+
+If you want, I can now **add the “Visual Preview” section with GIFs/screenshots integrated**, so the README is fully production-ready for GitHub. Do you want me to do that next?
