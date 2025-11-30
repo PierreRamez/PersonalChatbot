@@ -160,6 +160,3 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
   <p>Built with ❤️</b></p>
   <p><i>Part of the DEPI Generative AI Track - Round 3</i></p>
 </div>
-
-
-If you want, I can now **add the “Visual Preview” section with GIFs/screenshots integrated**, so the README is fully production-ready for GitHub. Do you want me to do that next?
