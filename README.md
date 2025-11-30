@@ -1,4 +1,4 @@
-# 🐍 Ouro: The Self-Healing Chatbot
+# 🐍 Ouro: Your Ever Evolving Personal Assistant
 
 *A personalized conversational AI that learns from its mistakes in real-time.*
 
