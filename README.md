@@ -157,6 +157,6 @@ This project is part of the **Digital Egypt Pioneers Initiative (DEPI)**. While 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <div align="center">
-  <p>Built with ❤️</b></p>
+  <p>Built with ❤️ by Pierre Ramez</b></p>
   <p><i>Part of the DEPI Generative AI Track - Round 3</i></p>
 </div>
