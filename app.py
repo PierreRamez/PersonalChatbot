@@ -119,7 +119,7 @@ class ModelManager:
         
         # GPU check for 4-bit loading
         if use_4bit and self._device == "cuda":
-            print("🚀 GPU detected: Loading in 4-bit mode")
+            print("GPU detected: Loading in 4-bit mode")
             try:
                 from transformers import BitsAndBytesConfig
                 
@@ -138,14 +138,14 @@ class ModelManager:
                     torch_dtype=torch.float16,
                 )
             except ImportError:
-                print("⚠️ bitsandbytes not installed. Falling back to standard loading.")
+                print("bitsandbytes not installed. Falling back to standard loading.")
                 base_model = AutoModelForCausalLM.from_pretrained(
                     model_name,
                     device_map="auto",
                     trust_remote_code=True,
                 )
         else:
-            print(f"⚠️ Using {self._device} (No GPU or use_4bit=False). Loading standard model.")
+            print(f"Using {self._device} (No GPU or use_4bit=False). Loading standard model.")
             base_model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 device_map=self._device,
@@ -162,9 +162,9 @@ class ModelManager:
                     torch_dtype=torch.float16 if self._device == "cuda" else torch.float32
                 )
                 self._current_adapter = adapter_path
-                print(f"✅ Adapter loaded successfully")
+                print(f"Adapter loaded successfully")
             except Exception as e:
-                print(f"⚠️ Could not load adapter: {e}")
+                print(f"Could not load adapter: {e}")
                 print("   Using base model without adapter")
                 self._model = base_model
                 self._current_adapter = None
