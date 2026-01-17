@@ -308,13 +308,13 @@ async def startup_event():
     print("Starting up...")
     
     model_manager.initialize(
-        # 1. The Base Model (The heavy lifter)
+        # 1. The Base Model
         model_name="meta-llama/Llama-3.2-3B-Instruct",
         
-        # 2. Adapter (The personalization) - YOUR SPECIFIC REPO
+        # 2. Adapter 
         adapter_path="pierreramez/Llama-3.2-3B-Instruct-bnb-4bit_finetuned",
         
-        # 3. CPU Optimization (Must be False for free tier)
+        # 3. CPU Optimization
         use_4bit=False 
     )
     
