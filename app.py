@@ -487,7 +487,7 @@ async def reload_adapter(request: ReloadAdapterRequest):
     """Hot reload model."""
     try:
         model_manager.initialize(
-            model_name="meta-llama/Llama-3.2-1B-Instruct",
+            model_name="meta-llama/Llama-3.2-3B-Instruct",
             adapter_path=request.adapter_path,
             use_4bit=False
         )
